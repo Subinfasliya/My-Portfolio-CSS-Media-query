@@ -231,12 +231,15 @@ Desktop-first Approach */
 
   /* Header section */
   .header-container {
+    width: 100%;
+    height: auto;
     padding: 1.5rem 3rem;
 
   }
 
   /* Hero section */
   .hero-container {
+    height: auto;
     padding: 0 3rem;
     display: flex;
     align-items: center;
@@ -280,24 +283,27 @@ Desktop-first Approach */
 
   /* About section */
   .about-container {
+    height: auto;
+    margin-top: 2rem;
     padding: 1rem 3rem;
   }
 
   .about-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .about-container p {
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: justify;
-    letter-spacing: normal;
+    text-align: center;
     line-height: 1.9rem;
   }
 
   /* Footer section */
   footer {
-    padding: 0 3rem;
+    padding: 1rem 3rem;
+    height: auto;
   }
 
   .footer-container p {
@@ -305,12 +311,19 @@ Desktop-first Approach */
   }
 
   .footer-text a {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .footer-links h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
+  .footer-links a{
+    font-size: 1rem;
+  }
+  .copyright{
+    font-size: 0.8rem;
+  }
+  
 }
 
 /* Mobile */
