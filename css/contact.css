@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+/* Header section */
+.header-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.header-container nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.header-container .logo a,
+.header-container nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-container nav ul li a:hover {
+    color: #9f0303;
+}
+
+
+
+/* Hero section */
+.hero-container {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.hero-container .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Line with animation */
+.underline {
+    width: 0;
+    height: 3px;
+    background-color: #9f0303;
+    animation: expandLine 2s ease-out forwards;
+}
+
+@keyframes expandLine {
+    form {
+        width: 0;
+    }
+
+    to {
+        width: 100px;
+    }
+}
+
+
+.hero-container h1 {
+    font-size: 4.5rem;
+}
+
+/* Hero Image or Profile section */
+.hero-container img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.50);
+    object-fit:cover;
+}
+
+/* Contact Form section */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 10rem;
+    margin-bottom: 4rem;
+    gap: 40px;
+}
+
+.sub-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #9f0303;
+}
+
+.message {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.information {
+    flex: 1;
+    /* Smaller portion */
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-group input:focus,textarea:focus {
+    border-color: #dc0404;
+    outline: none;
+    box-shadow: 0 0 5px rgba(82, 3, 3, 0.5);
+}
+
+/* Buttons */
+.form-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.form-btn button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #0077ff;
+    color: white;
+    font-size: 16px;
+}
+
+.form-btn button:hover {
+    background: #005fcc;
+}
+
+/* Contact Info */
+.information h2 {
+    margin-bottom: 10px;
+}
+
+.information address {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* Footer section  */
+footer {
+    background-color: #fff;
+    padding: 2rem 10rem;
+}
+
+.footer-container {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text p {
+    font-size: 1.5rem;
+}
+
+.footer-text h1 a {
+   font-size: 4.5rem;
+    color: black;
+}
+
+.footer-text a:hover {
+    color: rgb(51, 111, 241);
+}
+
+.footer-links {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social,
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social nav ul,
+.service nav ul {
+    list-style: none;
+}
+
+.social ul li,
+.service ul li {
+    margin-bottom: 4px;
+}
+
+.social a,
+.service a {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover,
+.service a:hover {
+    color: rgb(0, 98, 255);
+}
+
+.copyright {
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #929292;
+}
