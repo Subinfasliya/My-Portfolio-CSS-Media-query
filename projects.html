@@ -20,37 +20,41 @@
 
 <body>
     <!-- Header section -->
-    <header>
-        <!-- header container -->
-        <div class="header-container">
-            <!-- Logo Text -->
-            <h1 class="logo"><a href="">. Subin T S</a></h1>
+    <header class="header-container">
+        <!-- Logo Text -->
+        <a class="logo" href="">. Subin T S</a>
 
-            <!-- Navigation Links -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger Button -->
+        <div class="hamburger-container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
     </header>
 
     <!-- Main section -->
     <main>
         <!-- Hero section in Project Page -->
-        <section id="hero">
-            <div class="hero-container">
-                <div class="hero-text">
-                    <div class="underline"></div>
-                    <h1>My Projects</h1>
-                </div>
-                <!-- project profile Image -->
-                <img src="images/project-profile.jpg" alt="Project Planning Image">
+        <section class="hero-container">
+            <!-- Hero text  -->
+            <div class="hero-text">
+                <div class="underline"></div>
+                <h1>My Projects</h1>
             </div>
+            <!-- project profile Image -->
+            <div class="image-container">
+                <img src="images/project-profile1.jpg" alt="Project Planning Image">
+            </div>
+
         </section>
 
         <!-- Project section -->
@@ -62,36 +66,36 @@
             <div class="project-container">
 
                 <!-- First Project -->
-                <article class="projects">
-                    <h2>Elegant Linings</h2>
+                <div class="project-card">
                     <!-- Project Image -->
-
                     <img src="images/project-elegant.png" alt="Elegant Linings Website Image">
-
-
-                    <!-- Short Description of Project -->
-                    <p>
-                        Created static website with Contact
-                        form using HTML CSS and JavaScript.
-                    </p>
+                    <!-- card body -->
+                    <div class="card-body">
+                        <h3>Elegant Linings</h3>
+                        <!-- Short Description of Project -->
+                        <p>
+                            Created static website with Contact
+                            form using HTML CSS and JavaScript.
+                        </p>
+                    </div>
                     <!-- Deployed project Link -->
                     <div class="project-btn">
                         <a href="https://elegantlinings.netlify.app" target="_blank">View</a>
                     </div>
 
-                </article>
+                </div>
 
                 <!-- Second Project -->
-                <article class="projects">
-                    <h2>Trading House</h2>
+                <div class="project-card">
                     <!-- Project Image -->
-
                     <img src="https://images.pexels.com/photos/4467739/pexels-photo-4467739.jpeg"
                         alt="Trading House Website Image Not Available">
-
-
-                    <!-- Short Descrption of Project -->
-                    <p>This Web-Application is created with MERN technologies.</p>
+                    <!-- card body -->
+                    <div class="card-body">
+                        <h3>Trading House</h3>
+                        <!-- Short Descrption of Project -->
+                        <p>This Web-Application is created with MERN technologies.</p>
+                    </div>
 
                     <!-- Project Link -->
                     <div class="project-btn">
@@ -100,15 +104,18 @@
                         </a>
                     </div>
 
-                </article>
+                </div>
 
                 <!-- Third Project -->
-                <article class="projects">
-                    <h2>Contact Form</h2>
+                <div class="project-card">
                     <!-- Project Image -->
                     <img src="images/contactform-project.png" alt="A Contact Form Image">
-                    <!-- Short Descrption of Project -->
-                    <p>This Webpage is created with HTML CSS and CSS-Flexbox</p>
+                    <!-- card body -->
+                    <div class="card-body">
+                        <h3>Contact Form</h3>
+                        <!-- Short Descrption of Project -->
+                        <p>This Webpage is created with HTML CSS and CSS-Flexbox</p>
+                    </div>
 
                     <!-- Project Link -->
                     <div class="project-btn">
@@ -116,7 +123,7 @@
                             target="_blank">View
                         </a>
                     </div>
-                </article>
+                </div>
             </div>
         </section>
 
@@ -130,7 +137,7 @@
             <!-- Footer text section -->
             <div class="footer-text">
                 <p>Based in Kerala, working worldwide.</p>
-                <h1><a href="#">Get in touch</a></h1>
+                <a href="#">Get in touch</a>
             </div>
 
             <!-- Footer  links section -->

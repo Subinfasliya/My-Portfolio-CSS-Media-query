@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 10rem;
+  padding: 2rem 7.5rem;
 }
 
 .header-container .logo {
@@ -52,7 +52,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10rem;
+  padding: 0 7.5rem;
   gap: 20px;
 }
 
@@ -121,12 +121,13 @@ body {
 }
 
 /* hero section image */
-.image-container{
+.image-container {
   flex: 1;
   text-align: end;
 }
+
 .hero-container img {
-  height: 500px;
+  /* height: 500px; */
   width: 500px;
   max-width: 100%;
   height: auto;
@@ -137,7 +138,7 @@ body {
 
 /* About section  */
 .about-container {
-  padding: 2rem 10rem;
+  padding: 2rem 7.5rem;
   margin-bottom: 7rem;
 }
 
@@ -156,7 +157,7 @@ body {
 /* Footer section  */
 footer {
   background-color: #fff;
-  padding: 2rem 10rem;
+  padding: 2rem 7.5rem;
 }
 
 .footer-container {
@@ -233,14 +234,14 @@ Desktop-first Approach */
   .header-container {
     width: 100%;
     height: auto;
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
 
   }
 
   /* Hero section */
   .hero-container {
-    height: auto;
-     max-height: 100vh;
+    width: 100%;
+    max-height: 80vh;
     padding: 0 3rem;
     display: flex;
     align-items: center;
@@ -310,10 +311,6 @@ Desktop-first Approach */
     height: auto;
   }
 
-  .footer-container{
-    height: auto;
-
-  }
 
   .footer-container p {
     font-size: 1.2rem;
@@ -326,13 +323,15 @@ Desktop-first Approach */
   .footer-links h2 {
     font-size: 1.5rem;
   }
-  .footer-links a{
+
+  .footer-links a {
     font-size: 1rem;
   }
-  .copyright{
+
+  .copyright {
     font-size: 0.8rem;
   }
-  
+
 }
 
 /* Mobile */
@@ -379,21 +378,22 @@ Desktop-first Approach */
     align-items: flex-start;
     padding: 2rem .5rem;
     max-width: 100%;
+    
   }
 
   .hero-container p {
-    font-size:.875rem;
+    font-size: .875rem;
     margin-top: 1rem;
   }
 
   .hero-container h1 {
     font-size: 32px;
-    margin:0.8rem 0;
+    margin: 0.8rem 0;
   }
 
   .hero-container h2 {
     font-size: 1.5rem;
-    margin:0.8rem 0;
+    margin: 0.8rem 0;
   }
 
   .hero-btn {
