@@ -21,114 +21,115 @@
 
 <body>
 
-    <header>
-        <!-- header container -->
-        <div class="header-container">
-            <!-- Logo Text -->
-            <h1 class="logo"><a href="">. Subin T S</a></h1>
+    <!-- header container -->
+    <header class="header-container">
 
-            <!-- Navigation Links -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <!-- Logo Text -->
+        <a class="logo" href="index.html">. Subin T S</a>
 
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger Button -->
+        <div class="hamburger-container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
+
     </header>
 
     <!-- Main section -->
     <main>
         <!-- Hero section in About Page -->
-        <section id="hero">
-            <div class="hero-container">
-                <div class="hero-text">
-                    <div class="underline"></div>
-                    <h1>Contact</h1>
-                </div>
-                <!-- project profile Image -->
-                <img src="images/contact.jpg" alt="Contact Us Image">
+        <section class="hero-container">
+            <div class="hero-text">
+                <div class="underline"></div>
+                <h1>Contact</h1>
             </div>
+            <!-- project profile Image -->
+            <div class="image-container"><img src="images/contact.jpg" alt="Contact Us Image"></div>
         </section>
 
+        <!-- Contact Container -->
 
+        <section class="contact-container">
 
-        <section id="contact">
-            <!-- Contact Container -->
-            <div class="contact-container">
-                <!-- Contact form or message section  -->
-                <div class="message">
-                    <h2 class="sub-title">Message Me</h2>
+            <!-- Contact form or message section  -->
+            <div class="message">
+                <h2 class="sub-title">Message Me</h2>
 
-                    <!-- Contact Form -->
-                    <form>
-                        <div class="form-container">
-                            <!-- Text input for Name -->
-                            <div class="form-group">
-                                <label for="name">Name: </label>
-                                <input type="text" name="name" id="name" placeholder="e.g., David" required
-                                    minlength="3" maxlength="50">
-                            </div>
-
-                            <!-- email input for Email -->
-                            <div class="form-group">
-                                <label for="email">Email: </label>
-                                <input type="email" name="email" id="email" placeholder="e.g., name@example.com"
-                                    required>
-                            </div>
-
-
-                            <!-- Tel input for user Phone Number -->
-                            <div class="form-group">
-                                <label for="phone">Phone Number: </label>
-                                <input type="tel" id="phone" name="phone" pattern="[6-9][0-9]{9}" required
-                                    placeholder="e.g, 6265569801">
-                            </div>
-
-
-                            <!-- Text input for Subject -->
-                            <div class="form-group">
-                                <label for="subject">Subject: </label>
-                                <input type="text" name="subject" id="subject" placeholder="What is your inquiry about?"
-                                    required minlength="5">
-                            </div>
-
-
-                            <!-- Textarea input for Message -->
-                            <div class="form-group full-width">
-                                <label for="message">Message: </label>
-                                <textarea name="message" id="message" cols="30" rows="5"
-                                    placeholder="Enter your message here..." required></textarea>
-                            </div>
-
-                        </div>
-                        <div class="form-btn">
-                            <!-- Submit Button -->
-                            <button type="submit">Send Message</button>
-                            <!--  Reset Buttons -->
-                            <button type="reset">Reset</button>
+                <!-- Contact Form -->
+                <form>
+                    <div class="form-container">
+                        <!-- Text input for Name -->
+                        <div class="form-group">
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="e.g., David" required minlength="3"
+                                maxlength="50">
                         </div>
 
-                    </form>
-                </div>
-                <!-- Contact Information section -->
-                <div class="information">
-                    <h2 class="sub-title">Contact Info</h2>
+                        <!-- email input for Email -->
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" placeholder="e.g., name@example.com" required>
+                        </div>
 
-                    <p>Always available for freelance work if the right project comes along, Feel free to contact me!
-                    </p>
 
-                    <!-- Contact Address -->
-                    <address>
-                        <div>Location: Vattamkulam Malappuram District.</div>
-                        Phone: <a href="tel:+917994703723">+91 7994 7037 23</a><br>
-                        Email: <a href="mailto:subinfasliya@gmail.com">subinfasliya@gmail.com</a>
-                    </address>
-                </div>
+                        <!-- Tel input for user Phone Number -->
+                        <div class="form-group">
+                            <label for="phone">Phone Number: </label>
+                            <input type="tel" id="phone" name="phone" pattern="[6-9][0-9]{9}" required
+                                placeholder="e.g, 6265569801">
+                        </div>
+
+
+                        <!-- Text input for Subject -->
+                        <div class="form-group">
+                            <label for="subject">Subject: </label>
+                            <input type="text" name="subject" id="subject" placeholder="What is your inquiry about?"
+                                required minlength="5">
+                        </div>
+
+
+                        <!-- Textarea input for Message -->
+                        <div class="form-group full-width">
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" cols="30" rows="5"
+                                placeholder="Enter your message here..." required></textarea>
+                        </div>
+
+                    </div>
+                    <div class="form-btn">
+                        <!-- Submit Button -->
+                        <button type="submit">Send Message</button>
+                        <!--  Reset Buttons -->
+                        <button type="reset">Reset</button>
+                    </div>
+
+                </form>
             </div>
+            <!-- Contact Information section -->
+            <div class="information">
+                <h2 class="sub-title">Contact Info</h2>
+
+                <p>Always available for freelance work if the right project comes along, Feel free to contact me!
+                </p>
+
+                <!-- Contact Address -->
+                <address>
+                    <div>Location: Vattamkulam Malappuram District.</div>
+                    Phone: <a href="tel:+917994703723">+91 7994 7037 23</a><br>
+                    Email: <a href="mailto:subinfasliya@gmail.com">subinfasliya@gmail.com</a>
+                </address>
+            </div>
+
         </section>
 
     </main>
@@ -140,7 +141,7 @@
             <!-- Footer text section -->
             <div class="footer-text">
                 <p>Based in Kerala, working worldwide.</p>
-                <h1><a href="#">Get in touch</a></h1>
+                <a href="#">Get in touch</a>
             </div>
 
             <!-- Footer  links section -->

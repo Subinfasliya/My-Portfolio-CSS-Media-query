@@ -111,7 +111,7 @@ body {
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
     padding: 2rem 7.5rem;
     margin-bottom: 8rem;
@@ -300,6 +300,22 @@ Desktop-first Approach */
         object-fit: cover;
     }
 
+    /* project card section */
+    .project-container {
+        width: 100vw;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 3rem;
+
+    }
+
+    .project-card {
+        margin: 1rem 0;
+        width: 100%;
+        height: auto;
+        min-width: 100%;
+        max-width: 100%;
+    }
 
 
     /* Footer section */
@@ -397,18 +413,24 @@ Desktop-first Approach */
         height: auto;
     }
 
-    /* about section in index.html */
+    /*Project card section */
     .project-container {
-        /* grid-template-columns: 1fr; */
-        padding: 1rem 2.5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 1rem 1.5rem;
         margin-bottom: 2rem;
     }
 
     .project-card {
         margin: 1rem 0;
         width: 100%;
-        max-width: 100%;
+        height: auto;
+        min-width: 200px;
+        min-height: 100%;
+        max-width: 400px;
     }
+
 
     /* Footer section */
     footer {
