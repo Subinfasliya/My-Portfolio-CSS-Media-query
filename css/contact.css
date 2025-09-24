@@ -89,10 +89,12 @@ body {
     font-size: 4.5rem;
 }
 
+
 /* Hero Image or Profile section */
 .hero-container img {
     width: 500px;
-    height: 500px;
+    height: auto;
+    max-width: 100%;
     border-radius: 50%;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.50);
     object-fit: cover;
@@ -412,12 +414,12 @@ footer {
         flex-direction: column-reverse;
         align-items: flex-start;
         padding: 2rem .5rem;
-        max-width: 100%; 
+        max-width: 100%;
     }
 
 
     .hero-text h1 {
-        font-size: 32px;
+        font-size: 2rem;
         margin: 0.8rem 0;
     }
 
@@ -428,7 +430,7 @@ footer {
     }
 
     .hero-container img {
-        width:70%;
+        width: 70%;
         max-width: 100%;
         height: auto;
     }
@@ -451,7 +453,7 @@ footer {
 
     .sub-title {
         text-align: center;
-         font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
     .form-btn {

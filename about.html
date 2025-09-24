@@ -19,37 +19,40 @@
 </head>
 
 <body>
-    <header>
-        <!-- header container -->
-        <div class="header-container">
-            <!-- Logo Text -->
-            <h1 class="logo"><a href="">. Subin T S</a></h1>
+    <!-- header container -->
+    <header class="header-container">
 
-            <!-- Navigation Links -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <!-- Logo Text -->
+        <a class="logo" href="">. Subin T S</a>
 
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger Button -->
+        <div class="hamburger-container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
     </header>
 
     <!-- Main section -->
     <main>
         <!-- Hero section in About Page -->
-        <section id="hero">
-            <div class="hero-container">
-                <div class="hero-text">
-                    <div class="underline"></div>
-                    <h1>About Me</h1>
-                </div>
-                <!-- project profile Image -->
-                <img src="images/about-image.png" alt="Profile Image of Subin">
+        <section class="hero-container">
+            <!-- hero text -->
+            <div class="hero-text">
+                <div class="underline"></div>
+                <h1>About Me</h1>
             </div>
+            <!-- project profile Image -->
+            <div class="image-container"><img src="images/about-image.png" alt="Profile Image of Subin"></div>
         </section>
 
         <section>
@@ -78,16 +81,15 @@
                     <address>
                         <div>
                             <p>
-                                <span class="address-text">Email:</span>
-                                <a href="mailto:subinfasliya@gmail.com">
+                                <span class="address-text">Email: </span>
+                                <a class="address-mail" href="mailto:subinfasliya@gmail.com">
                                     subinfasliya@gmail.com
                                 </a>
                             </p>
                         </div>
 
                         <div>
-                            <p>
-                                <span class="address-text">Location:</span>Ponnani,Malappuram
+                            <p class="address-text">Location: <span class="address-location"> Ponnani,Malappuram</span>
                             </p>
                         </div>
                     </address>
@@ -103,7 +105,7 @@
             <!-- Footer text section -->
             <div class="footer-text">
                 <p>Based in Kerala, working worldwide.</p>
-                <h1><a href="#">Get in touch</a></h1>
+                <a href="#">Get in touch</a>
             </div>
 
             <!-- Footer  links section -->
