@@ -243,10 +243,6 @@ footer {
         margin-top: 1rem;
     }
 
-    .hero-container h2 {
-        font-size: 1.5rem;
-        margin: 0.8rem 0;
-    }
 
     /* Hero-resume button  */
     .hero-btn {
@@ -266,21 +262,12 @@ footer {
     }
 
     /* project card section */
-    .project-container {
-        width: 100vw;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
+    .about-container {
+      width: 100%;
         padding: 2rem 3rem;
 
     }
 
-    .project-card {
-        margin: 1rem 0;
-        width: 100%;
-        height: auto;
-        min-width: 100%;
-        max-width: 100%;
-    }
 
 
     /* Footer section */
@@ -397,11 +384,17 @@ footer {
         padding: 1rem 1.5rem;
     }
 
-    .description p{
-        font-size: 1.5rem;
+    .description p {
+        font-size: 1rem;
         text-align: left;
         line-height: 2.8rem;
     }
+
+    .address .address-text {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
 
     /* Footer section */
     footer {
