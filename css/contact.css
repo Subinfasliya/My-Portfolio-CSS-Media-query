@@ -305,11 +305,6 @@ footer {
         margin: 0.8rem 0;
     }
 
-    /* Hero-resume button  */
-    .hero-btn {
-        margin-top: 1.2rem;
-    }
-
     .image-container {
         flex: 1;
         text-align: end;
@@ -322,23 +317,14 @@ footer {
         object-fit: cover;
     }
 
-    /* project card section */
-    .project-container {
+    /* contact section */
+    .contact-container {
         width: 100vw;
         height: auto;
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem 3rem;
 
     }
-
-    .project-card {
-        margin: 1rem 0;
-        width: 100%;
-        height: auto;
-        min-width: 100%;
-        max-width: 100%;
-    }
-
 
     /* Footer section */
     footer {
@@ -435,7 +421,7 @@ footer {
         height: auto;
     }
 
-    /*Project card section */
+    /*contact section */
     .contact-container {
         display: flex;
         flex-direction: column;

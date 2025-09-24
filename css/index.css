@@ -294,15 +294,15 @@ Desktop-first Approach */
   }
 
   .about-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 
   .about-container p {
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: center;
-    line-height: 1.9rem;
+    text-align: justify;
+    line-height: 2rem;
   }
 
   /* Footer section */
@@ -387,7 +387,7 @@ Desktop-first Approach */
   }
 
   .hero-container h1 {
-    font-size: 32px;
+    font-size: 2rem;
     margin: 0.8rem 0;
   }
 
