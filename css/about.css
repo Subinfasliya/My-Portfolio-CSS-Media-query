@@ -26,7 +26,7 @@ body {
 
 .header-container nav ul {
     display: flex;
-    gap: 20px;
+    gap: 1.5rem;
     list-style: none;
     font-size: 20px;
 }
@@ -387,7 +387,7 @@ footer {
     .description p {
         font-size: 1rem;
         text-align: left;
-        line-height: 2.8rem;
+        line-height: 1.8rem;
     }
 
     .address .address-text {
